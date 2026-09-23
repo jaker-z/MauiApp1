@@ -4,6 +4,19 @@
         <name>MauiApp1</name>
     </assembly>
     <members>
+        <member name="T:MauiApp1.CharacterDetailsViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:MauiApp1.CharacterDetailsViewModel.DetailText">
+            <inheritdoc cref="F:MauiApp1.CharacterDetailsViewModel.detailText"/>
+        </member>
+        <member name="F:MauiApp1.CharacterDetailsViewModel.goBackCommand">
+            <summary>The backing field for <see cref="P:MauiApp1.CharacterDetailsViewModel.GoBackCommand"/>.</summary>
+        </member>
+        <member name="P:MauiApp1.CharacterDetailsViewModel.GoBackCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MauiApp1.CharacterDetailsViewModel.GoBackAsync"/>.</summary>
+        </member>
         <member name="T:MauiApp1.MainPageViewModel">
             <inheritdoc/>
             <inheritdoc/>
@@ -42,6 +55,9 @@
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.DetailText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "DetailText" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.LabelText">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "LabelText" generated properties.</summary>
         </member>
@@ -56,6 +72,9 @@
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.DetailText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "DetailText" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.LabelText">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "LabelText" generated properties.</summary>

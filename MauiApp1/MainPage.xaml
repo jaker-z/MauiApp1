@@ -7,10 +7,11 @@
              Title="MauiApp1">
 
     <VerticalStackLayout>
+        
         <Image Source="cool_pixel_pizza.png"
                HeightRequest="300"
                Aspect="AspectFit"/>
-        
+
         <Label Text="{Binding LabelText}"
                FontSize="24"
                HorizontalTextAlignment="Center"/>
