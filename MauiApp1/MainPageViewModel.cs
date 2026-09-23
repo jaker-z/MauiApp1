@@ -32,7 +32,7 @@ namespace MauiApp1
         [RelayCommand]
         async Task GetDetailsAsync()
         {
-            //await Shell.Current.GoToAsync();
+            await Shell.Current.GoToAsync(nameof(CharacterDetailsPage));
             return;
         }
 

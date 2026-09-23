@@ -18,6 +18,9 @@ namespace MauiApp1
             builder.Services.AddSingleton<MainPage>();
             builder.Services.AddSingleton<MainPageViewModel>();
 
+            builder.Services.AddTransient<CharacterDetailsPage>();
+            builder.Services.AddTransient<CharacterDetailsViewModel>();
+
 #if DEBUG
     		builder.Logging.AddDebug();
 #endif
